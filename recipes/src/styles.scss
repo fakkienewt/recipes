@@ -1,6 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #ACBD5E;
-    padding: 0 140px 0 140px;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: Lucida Handwriting;
+}
+
+app-root {
+    display: block;
+    width: 65%;
 }

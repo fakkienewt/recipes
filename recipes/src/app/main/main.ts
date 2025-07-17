@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
+import { Service } from './service';
+
+@Injectable()
 
 @Component({
   selector: 'app-main',
@@ -7,5 +10,8 @@ import { Component } from '@angular/core';
   styleUrl: './main.scss'
 })
 export class Main {
-
+  constructor(private service: Service) { }
+  get recipes() {
+    return this.service.getRecipes();
+  }
 }

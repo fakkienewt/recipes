@@ -16,10 +16,9 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.header-input-search {
+.input-search {
     display: block;
-    font-family: DejaVu Sans Mono, monospace;
-    font-weight: 600;
+    font-family: cursive;
     padding: 10px;
     width: 530px;
     height: 15px;
@@ -28,7 +27,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.header-button-search {
+.button-search {
     background: #308529;
     border-radius: 10px;
     padding: 7px;
@@ -36,8 +35,11 @@
     margin-left: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
     cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
 }
 
-.header-button-search:hover {
-    background: #B78449;
+.button-search:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    letter-spacing: 1px;
 }

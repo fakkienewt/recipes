@@ -6,6 +6,7 @@ import { App } from './app';
 import { Header } from './header/header';
 import { Main } from './main/main';
 import { Footer } from './footer/footer';
+import { Service } from './main/service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Footer } from './footer/footer';
     AppRoutingModule
   ],
   providers: [
-    provideBrowserGlobalErrorListeners()
+    provideBrowserGlobalErrorListeners(),
+    Service,
   ],
   bootstrap: [App]
 })

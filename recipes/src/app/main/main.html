@@ -1,3 +1,36 @@
 <div id="main">
-    <div id="title">Recipes!</div>
+    <div id="main-title">Unlock Your Culinary Creativity!</div>
+    <div class="main-menu">
+        <div class="menu">
+            All
+        </div>
+        <div class="menu">
+            Sushi
+        </div>
+        <div class="menu">
+            Burgers
+        </div>
+        <div class="menu">
+            Pizza
+        </div>
+        <div class="menu">
+            Pasta
+        </div>
+        <div class="menu">
+            Breakfasts
+        </div>
+        <div class="menu">
+            Lunches
+        </div>
+        <div class="donate">Donate</div>
+    </div>
+    <div *ngFor="let recipe of recipes"
+        class="recipes">
+        <img class="image"
+            src="{{recipe.img}}">
+        <div class="list">
+            <div class="title">{{recipe.title}}</div>
+            <div class="order">Order</div>
+        </div>
+    </div>
 </div>
