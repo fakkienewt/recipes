@@ -1,0 +1,85 @@
+@keyframes cursiveEntry {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        letter-spacing: -5px;
+    }
+
+    50% {
+        letter-spacing: 2px;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        letter-spacing: normal;
+    }
+}
+
+#main-title {
+    font-family: 'Lucida Handwriting';
+    font-size: 3rem;
+    color: #283F23;
+    /* Тёплый акцентный цвет */
+    justify-content: center;
+    text-align: center;
+    animation: cursiveEntry 1.5s ease-out forwards;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 45px;
+}
+
+#recipe-title {
+    display: flex;
+    padding: 0 20px 20px 20px;
+    font-size: 30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.image {
+    width: 380px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.read {
+    width: 200px;
+    height: 50px;
+    background: #308529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    margin-top: 15px;
+    font-size: 17px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+.read:hover {
+    transform: translateY(-3px) scale(1.03);
+    background: linear-gradient(to right, #4a8c3a, #397234);
+    box-shadow: 0 8px 20px rgba(57, 114, 52, 0.4);
+    letter-spacing: 1px;
+}
