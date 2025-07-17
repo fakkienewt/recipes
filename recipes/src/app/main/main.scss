@@ -90,7 +90,7 @@
     border-radius: 20px;
 }
 
-.order {
+.read {
     width: 200px;
     height: 50px;
     background: #308529;
@@ -105,7 +105,7 @@
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
 }
 
-.order:hover {
+.read:hover {
     transform: translateY(-3px) scale(1.03);
     background: linear-gradient(to right, #4a8c3a, #397234);
     box-shadow: 0 8px 20px rgba(57, 114, 52, 0.4);

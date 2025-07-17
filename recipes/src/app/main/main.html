@@ -30,7 +30,7 @@
             src="{{recipe.img}}">
         <div class="list">
             <div class="title">{{recipe.title}}</div>
-            <div class="order">Order</div>
+            <div class="read" (click)="onClickRecipe(recipe.id)">Read</div>
         </div>
     </div>
 </div>

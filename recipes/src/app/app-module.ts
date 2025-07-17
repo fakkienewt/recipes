@@ -7,13 +7,17 @@ import { Header } from './header/header';
 import { Main } from './main/main';
 import { Footer } from './footer/footer';
 import { Service } from './main/service';
+import { RestaurantPage } from './restaurant.page/restaurant-page/restaurant-page';
+import { MenuPage } from './menu-page/menu-page';
 
 @NgModule({
   declarations: [
     App,
     Header,
     Main,
-    Footer
+    Footer,
+    RestaurantPage,
+    MenuPage
   ],
   imports: [
     BrowserModule,

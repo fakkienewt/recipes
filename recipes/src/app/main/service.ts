@@ -3,7 +3,8 @@ export class Service {
         return this.recipes.map(r => ({
             id: r.id,
             title: r.title,
-            img: r.img
+            img: r.img,
+            menu: r.menu,
         }));
     }
 
