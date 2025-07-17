@@ -1,0 +1,43 @@
+.header-main-div {
+    display: flex;
+    background: #3F2617;
+    padding: 50px;
+    margin: 0;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+}
+
+.header-input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.header-input-search {
+    display: block;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 600;
+    padding: 10px;
+    width: 530px;
+    height: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.header-button-search {
+    background: #308529;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 17px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    cursor: pointer;
+}
+
+.header-button-search:hover {
+    background: #B78449;
+}
