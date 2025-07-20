@@ -17,6 +17,6 @@ export class Main {
   }
 
   onClickRecipe(id: number): void {
-   this.router.navigate([`recipe/${id}`]);
+    this.router.navigate([`recipe/${id}`]);
   }
 }

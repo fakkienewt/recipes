@@ -1,1 +1,19 @@
-<p>menu-page works!</p>
+<div id="main-title"
+    (click)="onClickThe()">Unlock Your Culinary Creativity!</div>
+
+<div id="container">
+    <h1 id="title">{{menuItem.title}}</h1>
+    <img id="image"
+        src="{{menuItem.img}}">
+
+    <div id="ingredients">
+        <h2 class="ingredients">Ingredients</h2>
+        <ul>
+            <li *ngFor="let ingredient of menuItem.ingredients">{{ingredient}}</li>
+        </ul>
+    </div>
+    <h2>Description</h2>
+    <div id="description"
+        *ngFor="let desc of menuItem.description" [innerHTML]="desc">
+    </div>
+</div>

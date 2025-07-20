@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, numberAttribute, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Service } from '../../main/service';
 
@@ -18,13 +18,16 @@ export class RestaurantPage implements OnInit {
     public router: Router,
   ) { }
 
-  onClickRec(menuId: number): void {
-    this.router.navigate([`recipe`, this.id, menuId])
+  onClickRec(menuId: number): number {
+    this.router.navigate([`recipe`, this.id, menuId]);
+    return menuId;
   }
 
   ngOnInit(): void {
     this.id = +(this.route.snapshot.paramMap.get('id') || 0);
     this.recipe = this.service.getRecipes().find(r => r.id === this.id);
-    console.log(this.recipe);
+  }
+  onClickThe(): void {
+    this.router.navigate(['/']);
   }
 }

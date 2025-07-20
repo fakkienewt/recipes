@@ -1,14 +1,13 @@
-<div id="main-title">Unlock Your Culinary Creativity!</div>
+<div id="main-title" (click)="onClickThe()">Unlock Your Culinary Creativity!</div>
 <div id="recipe-title">
     <div>{{recipe.title}}</div>
 </div>
 <div *ngFor="let rec of recipe.menu"
-    (click)="onClickRec(rec.id)"
     class="list">
     <img class="image"
         src="{{rec.img}}">
     <div class="container">
         <div class="title">{{rec.title}}</div>
-        <div class="read">Read</div>
+        <div class="read" (click)="onClickRec(rec.id)">Read</div>
     </div>
 </div>

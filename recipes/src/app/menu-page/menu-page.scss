@@ -1,0 +1,63 @@
+@keyframes cursiveEntry {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        letter-spacing: -5px;
+    }
+
+    50% {
+        letter-spacing: 2px;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        letter-spacing: normal;
+    }
+}
+
+#main-title {
+    font-family: 'Lucida Handwriting';
+    font-size: 3rem;
+    color: #283F23;
+    justify-content: center;
+    text-align: center;
+    animation: cursiveEntry 1.5s ease-out forwards;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 45px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#image {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#ingredients {
+    padding: 20px;
+    max-width: 900px;
+}
+
+.ingredients {
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+}
+
+#description {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    max-width: 900px;
+}
