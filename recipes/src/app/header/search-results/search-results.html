@@ -1,0 +1,14 @@
+<div id="main-title" (click)="onClickThe()">Unlock Your Culinary Creativity!</div>
+<div id="container"
+    *ngFor="let result of searchResults">
+    <img id="image"
+        src="{{result[1].img}}">
+    <div id="recipe">
+        <div id="title">{{result[1].title}}</div>
+        <div id="read" (click)="onClickRec(result[1].id, result[0])">Read</div>
+    </div>
+</div>
+
+<div *ngIf="!searchResults.length">
+    нету
+</div>

@@ -9,6 +9,7 @@ import { Footer } from './footer/footer';
 import { Service } from './main/service';
 import { RestaurantPage } from './restaurant.page/restaurant-page/restaurant-page';
 import { MenuPage } from './menu-page/menu-page';
+import { SearchResults } from './header/search-results/search-results';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MenuPage } from './menu-page/menu-page';
     Main,
     Footer,
     RestaurantPage,
-    MenuPage
+    MenuPage,
+    SearchResults
   ],
   imports: [
     BrowserModule,

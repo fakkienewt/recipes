@@ -1662,27 +1662,199 @@ export class Service {
                 {
                     id: 5,
                     title: 'Baked Cod with Lemon and Herbs',
-                    img: 'https://avatars.mds.yandex.net/i?id=b68587570a45de5bfaff98bdd9bb30d73a5d0ce6336c7cbb-13604111-images-thumbs&n=13'
+                    img: 'https://avatars.mds.yandex.net/i?id=b68587570a45de5bfaff98bdd9bb30d73a5d0ce6336c7cbb-13604111-images-thumbs&n=13',
+                    ingredients: [
+                        '1.2 kg fresh Atlantic cod loin (center-cut, 2.5" thick)',
+                        '500g Himalayan salt block (for dry-aging)',
+                        '1L ice-cold seawater brine (3.5% salinity)',
+                        '2 lbs Yukon Gold potatoes (1mm mandolin slices)',
+                        '200ml extra virgin olive oil (Tuscan blend)',
+                        '10 white peppercorns (toasted, ground)',
+                        '100g panko breadcrumbs (golden toasted)',
+                        '2 tbsp preserved lemon (minced)'
+                    ],
+                    description: [
+                        `<strong>1. The Fish Perfection.</strong>
+                        Submerge cod in seawater brine at 0°C for 12 hours. Pat dry, place on salt block uncovered in fridge for 12 hours.
+                        Salt block draws out excess moisture. Forms protective pellicle for flavor concentration.
+                        Maintain 85% humidity in refrigeration. Chef's Note: The flesh should develop pearlescent sheen.
+                        <br><br>
+                        <strong>2. The Layered Construction.</strong>
+                        Layer potato slices with clarified butter. Bake between sheets of parchment at 150°C for 2 hours.
+                        Press under 5kg weight for 3 hours. Slow-cook in olive oil at 65°C for 4 hours. Reserve oil for herb emulsion.
+                        Blanch herbs in boiling seawater for 8 seconds. Shock in liquid nitrogen.
+                        Blend with cultured butter at 40°C. <br><br>
+                        <strong>3. The Precision Baking.</strong>
+                        Salt block base (preheated to 180°C). Potato pavé layer.
+                        Fennel confit nest. Cod portion (skin side up). Herb butter dots. First stage: 8 minutes at 220°C (convection).
+                        Second stage: 6 minutes at 180°C (steam injection). Final stage: 2 minutes broil (for crust formation). 
+                        Core Temperature: 52°C at thickest point. Apply almond-panko mixture with cheesecloth. 
+                        Torch briefly for golden finish. <br><br>
+                        <strong>4. The Grand Presentation.</strong>
+                        Preheated lava stone slab. Hand-carved olive wood board. 
+                        Fennel oil moat. Reduced fish fumet dots. Lemon-thyme aerosol. 
+                        Crispy fish skin tuile. Micro herb salad. Edible gold leaf waves. Triple-stage baking ensures flakiness. 
+                        Salt block creates perfect heat distribution. Pectin in Meyer lemon forms natural glaze. 48-hour process builds umami.
+
+                        `
+                    ]
                 },
                 {
                     id: 6,
                     title: 'Lobster Rolls',
-                    img: 'https://avatars.mds.yandex.net/i?id=ae136011e00a459eccab3b5770c7dae6_l-4576159-images-thumbs&n=13'
+                    img: 'https://avatars.mds.yandex.net/i?id=ae136011e00a459eccab3b5770c7dae6_l-4576159-images-thumbs&n=13',
+                    ingredients: [
+                        '4 live 1.5 lb Maine lobsters (hard-shell, preferably from cold waters)',
+                        '1/2 cup sea salt (for boiling water)',
+                        '1 lemon (quartered)',
+                        '1 tbsp black peppercorns',
+                        '2 gallons filtered water',
+                        '1 bottle dry white wine (Chablis preferred)',
+                        '1 celery root (quartered)',
+                        '2 carrots (rough chopped)'
+                    ],
+                    description: [
+                        `<strong>1. Lobster Execution & Cooking.</strong>
+                        Humanely dispatch lobsters using iki jime technique. Build court-bouillon: simmer vegetables 1 hour, strain. 
+                        Poach claws (7 mins) and tails (5 mins) separately. Shock in iced seawater (3:1 water to salt ratio).
+                        Pick meat using surgical precision: Claws → whole pieces, Knuckles → medium chunks and Tail → bias-sliced medallions.
+                        Combine lobster with dressing components. <br><br>
+                        <strong>2. Flavor Development.</strong>
+                        Cure in glass terrines under parchment paper. Age at 34°F (1°C) for 24 hours.
+                        Temper lobster mix at ambient temperature. Line toasted buns with butter lettuce.
+                        Pack filling using ice cream scoop method. Garnish with: Lobster coral dust, 
+                        Crispy capers and Fennel pollen. <br><br>
+                        <strong>3. The Science of Perfection.</strong>
+                        Claw meat provides toothsome bite. Tail slices create visual appeal. Knuckle chunks absorb dressing.
+                        38°F (3°C) serving temp prevents mayo breakdown. Warm bun/cold filling contrast essential.
+                        Hour 0: Oceanic sweetness. Hour 12: Umami development. Hour 24: Herb infusion complete.
+                        <br.<br>
+                        <strong>4. Regional Variations.</strong>
+                        Warm butter-poached. Lemon zest finish. Chive blossom garnish.
+                        Dungeness crab blend. Avocado mousse. Fresno chili threads.
+                        Uni emulsion. Shiso leaf. Togarashi toasts. Paper boat presentation. 
+                        Iced Moxie soda pairing. Lobster consommé shot accompaniment. Gold leaf garnish
+                        `
+                    ]
                 },
                 {
                     id: 7,
                     title: 'Mussels in White Wine Sauce',
-                    img: 'https://avatars.mds.yandex.net/i?id=ef1a4c3d9272e792e08e5bb75b419cc5_l-10096158-images-thumbs&n=13'
+                    img: 'https://avatars.mds.yandex.net/i?id=ef1a4c3d9272e792e08e5bb75b419cc5_l-10096158-images-thumbs&n=13',
+                    ingredients: [
+                        '3 kg fresh live mussels (Bouchot or PEI, size 2-3")',
+                        '500ml icy seawater (for purging)',
+                        '1 cup coarse sea salt (for scrubbing)',
+                        '200g unsalted European butter (82% fat)',
+                        '150g shallots (1mm brunoise)',
+                        '1 bouquet garni (6 parsley stems, 2 thyme sprigs, 1 bay leaf)',
+                        '12 black peppercorns (lightly crushed)',
+                        '1 lemon (zest in wide strips)'
+                    ],
+                    description: [
+                        `<strong>1. Mussel Preparation.</strong>
+                        Sorting: Discard any open mussels that don't close when pressed.
+                        Purging: Submerge in icy seawater with 1 tbsp cornmeal for 30 minutes.
+                        Debearding: Pull beards toward hinge (don't tear flesh).
+                        Scrubbing: Use stiff brush under cold running water. Final Rinse: In 3 changes of filtered water.
+                        Key Moment: Store cleaned mussels on ice with damp towels until cooking. <br><br>
+                        <strong>2. Building the Sauce Base.</strong>
+                        Sweat shallots in butter over parchment paper (cartouche) for 20 mins. Add garlic and cook until fragrant (3 mins).
+                        Deglaze with wine, reduce by 2/3. Strain through chinois, pressing solids. 
+                        Chef's Secret: The sauce should coat the back of a spoon (nappé stage). Steam mussels in batches in cast iron pot. <br><br>
+                        <strong>3. The Mussel Dance.</strong>
+                        Reserve all liquor (filter through coffee filter). Reduce liquor by half, add to cream sauce.
+                        Mount sauce with cold butter cubes. Critical Timing: Mussels take exactly 3-5 minutes to open - remove immediately.
+                        Arrange mussels in concentric circles in preheated bowls. Nappe each layer with sauce. 
+                        Finish with: Chopped parsley, Lemon zest, Freshly cracked pepper and Toasted baguette slices. 
+                        Presentation Note: Serve with the lid on to trap aromas, then reveal tableside. <br><br>
+                        <strong>4. The Consommé Service.</strong>
+                        Strain remaining broth through superbag. Clarify with egg white raft.
+                        Serve in warmed teacups with: Saffron threads, Chive blossoms and Sea urchin roe. 
+                        Steaming temp precisely 100°C (212°F). Overcooking by 30 seconds ruins texture. 
+                        Shell heat retention continues cooking. Mussel liquor contains natural MSG. 
+                        Wine acidity balances brininess. Butter emulsification creates velvety texture.
+                        `
+                    ]
                 },
                 {
                     id: 8,
                     title: 'Tuna Poke Bowl',
-                    img: 'https://i.pinimg.com/originals/9e/f9/77/9ef97778aebe5aebbeba2cdbef11f4a9.jpg'
+                    img: 'https://i.pinimg.com/originals/9e/f9/77/9ef97778aebe5aebbeba2cdbef11f4a9.jpg',
+                    ingredients: [
+                        '600g sashimi-grade bigeye tuna (fatty toro section)',
+                        '300g Ora King salmon (belly portion)',
+                        '2 cups Koshihikari rice (aged 2 years)',
+                        '1/4 cup forbidden black rice (for visual contrast)',
+                        '50ml artisanal soy sauce (3-year barrel aged)',
+                        '1 tbsp wild honeycomb',
+                        '5g yuzu zest',
+                        'Spiralized daikon (ice-water crisped)',
+                        'Shaved Brussels sprouts (raw, mandoline 0.3mm)',
+                        '72-hour kimchi (Napa cabbage + sea urchin)'
+                    ],
+                    description: [
+                        `<strong>1. Temperature Control:</strong>
+                        Chill bowl to -5°C (cryo-treated ceramic). Warm rice to exact 37°C (body temperature).
+                        Rice base (compressed with sushi oke). Tuna/salmon mosaic (kaiseki arrangement).
+                        Vegetable "forest" (vertical placement). Pipette dots in Fibonacci sequence.
+                        Sprayed mist using perfume atomizer. Dry ice smoke effect (food-grade).
+                        Moving "river" of liquid nitrogen. <br><br>
+                        <strong>2. Service Protocol:</strong>
+                        Presented on 200-year-old cypress board. Accompanied by: Hand-carved chopsticks (spalted maple), 
+                        19th-century sake cups and Hot towel service (yuzu-scented). Cleanse palate with shiso sorbet.
+                        Experience texture progression (soft → crunchy). Finish with matcha salt rim.
+                        <br><br>
+                        <strong>3. Molecular Breakdown:</strong>
+                        Tuna aging: Enzymatic tenderization (calpain activation). Rice texture: Amylose/amylopectin balance.
+                        Sauce viscosity: Hydrocolloid engineering. Fish: -1.5°C (optimal mouthfeel).
+                        Bowls: Thermal mass calculations. Garnishes: Differential freezing.
+                        7 umami points (dashi-enhanced). 3.5 pH balance (citrus-adjusted).
+                        12-layer texture matrix. <br><br>
+                        <strong>4. Preservation Mastery.</strong>
+                        Vacuum-sealed components. Controlled atmosphere (2% oxygen). Cryo-freezing fish (-80°C).
+                        Dehydrated element bank. Fermented sauce library.
+                        Sous-vide reheating (precision ±0.3°C). Ultrasonic hydration. Plasma-activated water rinse.
+                        `
+                    ]
                 },
                 {
                     id: 9,
                     title: 'Clam Chowder',
-                    img: 'https://s.yimg.com/ny/api/res/1.2/WLSKvcP3kBQJw4l.G.4U5A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzQ-/https://media.zenfs.com/en/mashed_603/16e15054857ee4c4c81f5847b5c3d182'
+                    img: 'https://s.yimg.com/ny/api/res/1.2/WLSKvcP3kBQJw4l.G.4U5A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzQ-/https://media.zenfs.com/en/mashed_603/16e15054857ee4c4c81f5847b5c3d182',
+                    ingredients: [
+                        '5 lbs (2.3 kg) live hard-shell clams (quahogs or cherrystones)',
+                        '1 lb (450g) salt pork (diced 1/4)',
+                        '2 cups (500ml) bottled clam juice (for emergency depth)',
+                        '1 gallon (3.8L) whole milk (non-homogenized)',
+                        '2 cups (500ml) heavy cream (40% fat)',
+                        '1/2 lb (225g) European-style butter',
+                        '10 medium russet potatoes (1/2" dice, about 5 lbs)',
+                        '1 cup (120g) all-purpose flour (Wondra for smoother texture)',
+                        '1 tbsp whole black peppercorns'
+                    ],
+                    description: [
+                        `<strong>1. The Clam Sacrament</strong>
+                        Purge clams in saltwater brine (1/4 cup sea salt per gallon) for 4 hours.
+                        Steam in 3 batches with 1 cup seawater each. Reserve all liquor (strain through coffee filters).
+                        Chop clam meat (keep some whole for garnish). Reduce liquor by 75% to create "clam essence".
+                        Mariner's Wisdom: The broth should taste like low tide at dawn. <br><br>
+                        <strong>2. The Pork Revelation.</strong>
+                        Render salt pork over very low heat (45 mins). Reserve crispy "cracklings" for garnish.
+                        Cook onions in fat until translucent (1 hour). Make roux with flour (cook until blond perfection).
+                        Deglaze with 2 cups clam essence. Key Moment: The roux should smell like toasted biscuits. 
+                        Key Moment: The roux should smell like toasted biscuits. <br><br>
+                        <strong>3. The Grand Unification.</strong>
+                        Simmer with aromatics until just tender. Add reduced clam liquor gradually.
+                        Incorporate cream in 3 stages. Finish with butter off heat.
+                        Dual potato prep (some dissolved for starch, some whole). <br><br>
+                        <strong>4. The Chowder Cathedral.</strong>
+                        Wondra flour prevents clumping. Clam meat added last (prevents rubberiness).
+                        Serve at 145°F (63°C) – hot but not scalding. Chill bowls to 40°F (4°C) before filling. 
+                        Maintain thermal mass with heated soup tureen. Hour 0: Briny clam essence. Hour 4: Creamy dairy harmony.
+                        Hour 8: Umami depth from pork.
+                        `
+                    ]
                 },
             ]
         },
@@ -1694,128 +1866,255 @@ export class Service {
                 {
                     id: 1,
                     title: 'Pizza Napoletana',
-                    img: 'https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65c6a321ee792b5771d6079b_65c6a33eee792b5771d60f80/scale_1200'
+                    img: 'https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65c6a321ee792b5771d6079b_65c6a33eee792b5771d60f80/scale_1200',
+                    ingredients: [
+                        '1kg Tipo "00" flour (Caputo Cuoco or Pizzeria blend, 12.5% protein',
+                        '620ml mineral water (16°C, pH 7.5-8.5)',
+                        '30g sea salt (Sicilian coarse grind)',
+                        '0.2g fresh brewer"s yeast (or 0.05g instant dry yeast)',
+                        '450g fresh buffalo mozzarella (24-hour drained, hand-torn 2cm pieces)',
+                        '800g DOP San Marzano tomatoes (hand-crushed with basil leaf)',
+                        '36 fresh basil leaves (6 per pizza, added post-bake)',
+                        'First cold-press olive oil (3ml per pizza)',
+                        'Ice bath (for final moisture control)'
+                    ],
+                    description: [
+                        `<strong>1. The Starter Symphony.</strong>
+                        Autolyse Phase: Mix flour/water (no yeast/salt), rest 30 mins. Yeast Awakening: Dissolve yeast in 50ml water (tested at 22°C).
+                        First Fold: Incorporate yeast, 15-minute rest. Salt Integration: Add salt dissolved in remaining water.
+                        Slap & Fold: 15-minute intervals (3 cycles total). Bulk Ferment: 18-hour rise in linen-lined box. Pro Tip: Dough should sigh when poked - not collapse nor spring back fully.
+                        Divide & Pre-shape: 280g portions, light tension. First Rest: 30 mins uncovered (skin formation). <br><br>
+                        <strong>2. The Ball Perfection.</strong>
+                        Final Shaping: Neapolitan "hat" technique. Room Temp Proof: 12 hours (75% humidity).
+                        Cold Retardation: 12 hours refrigerated (develops flavor). Key Moment: Dough balls should resemble moon phases when cut - honeycomb structure visible.
+                        Wood Selection: 100% beech/orange wood blend. Oven Preparation: 2-hour preheat (dome whitening). <br><br>
+                        <strong>3. The Fire Ritual.</strong>
+                        Topping Theology: Tomato base applied in spiral (leave 1cm border) and Cheese placed in "archipelago" pattern. 
+                        Bake Sequence: 45 seconds initial bake, 180° rotation and 45 seconds final bake. Chef's Secret: The perfect leopard spotting occurs at 872°C floor temperature. <br><br>
+                        <strong>4. The 12-Point Authenticity Checklist.</strong>
+                        Crust Height: 1-2cm cornicione. Cheese Melt: Separate "islands" not merged. 
+                        Basil Application: Added post-bake to prevent burning. Tomato Texture: Visible crushed pieces (no purée). 
+                        Oil Timing: Drizzled while still steaming. Aroma Profile: Hints of burnt wheat, sweet tomato, wood smoke. 
+                        60-second water evaporation creates steam pockets. Maillard reaction peaks at 850°C. Wood-fired minerals impart trace flavor elements.
+                        `
+                    ]
                 },
                 {
                     id: 2,
                     title: 'Spaghetti Carbonara',
-                    img: 'https://resizer.mail.ru/p/251b00fb-e521-54f0-8812-331bcf39e62b/AQAFJS2UQXvc7Eg7jDVujyOxcAM-lXZCo3xcCR9IQKn33epn2JoK8U9fiJJTmP6iddvLvvGRsGZBXYHabWia0RN-KG4.jpg'
+                    img: 'https://resizer.mail.ru/p/251b00fb-e521-54f0-8812-331bcf39e62b/AQAFJS2UQXvc7Eg7jDVujyOxcAM-lXZCo3xcCR9IQKn33epn2JoK8U9fiJJTmP6iddvLvvGRsGZBXYHabWia0RN-KG4.jpg',
+                    ingredients: [
+                        '500g bronze-die spaghetti (De Cecco #12)',
+                        '150g Pecorino Romano (aged 18 months, microplaned) + 50g Parmigiano Reggiano (36 months)',
+                        '450ml pasta cooking water (heavily salted)',
+                        '42cm copper sauté pan (2.5mm thickness)',
+                        'Hand-blown glass mixing bowl (pre-chilled)',
+                        'Stainless steel tongs (for perfect tossing)',
+                        '1 tbsp black peppercorns (freshly cracked in mortar)'
+                    ],
+                    description: [
+                        `<strong>1. The Pork Alchemy.</strong>
+                        Hand-cut guanciale against grain at perfect 12° angle. Cold-start render in copper pan (fat should liquefy at 62°C).
+                        Add smashed garlic (removed at golden stage). Crisp to mahogany perfection (not carbonized!).
+                        Reserve 100ml rendered fat for sauce emulsion. Cook in 6L rolling boil (7g salt per liter).
+                        Stir counter-clockwise for even starch release. <br><br>
+                        <strong>2. Pasta Perfection.</strong>
+                        Reserve 450ml aquafaba-like cooking water. Finish cooking in guanciale fat (last 90 seconds).
+                        Whisk yolks with 37g Pecorino in chilled bowl. Slowly incorporate 120ml 82°C pasta water (5 tbsp).
+                        Create velvety zabaglione consistency. Temper with 50ml guanciale fat while whisking.
+                        Off heat, combine pasta with egg mixture. <br><br>
+                        <strong>3. The Marriage Ceremony.</strong>
+                        Add remaining cheese in three batches. Toss with pepper-infused guanciale.
+                        Adjust consistency with precisely 15ml water increments. Never use cream (heresy punishable by exile from Rome).
+                        Never add garlic directly to sauce (only infused). <br><br>
+                        <strong>4. The 12 Commandments of Carbonara.</strong>
+                        Never let eggs scramble (74°C is death temperature). Always use pasta water (starch is sacred).
+                        Always mix in counter-clockwise motion. Always serve in pre-heated bowls (58°C ideal). 
+                        Pasta water amylopectins create molecular net. Egg yolk lecithin stabilizes fat droplets. 
+                        Cheese casein prevents protein clumping. Pasta at 62°C when mixing begins. Sauce peaks at 68°C (perfect viscosity). 
+                        Serve at 58°C (optimal mouthfeel). 
+                        `
+                    ]
                 },
                 {
                     id: 3,
                     title: 'Lasagne alla Bolognese',
-                    img: 'https://avatars.mds.yandex.net/i?id=292a544e4349474d7da8826468312f3f_l-10521836-images-thumbs&n=13'
+                    img: 'https://avatars.mds.yandex.net/i?id=292a544e4349474d7da8826468312f3f_l-10521836-images-thumbs&n=13',
+                    ingredients: [
+                        '1.2kg beef chuck (60% fat cap on, hand-chopped 6mm)',
+                        '800g pork shoulder (with 30% fat, diced 8mm)',
+                        '300g pancetta (artisanal, cured 12 months, lardon cut)',
+                        '400g yellow onions (1mm brunoise by santoku knife)',
+                        '200g celery hearts (leaves included, 2mm oblique cuts)',
+                        '200g carrots (1.5mm julienne, then cross-cut)',
+                        '1.5L whole milk (raw, unpasteurized)',
+                        '300ml beef stock (48-hour bone reduction)',
+                        '500ml dry white wine (Colli Bolognesi Pignoletto DOCG)'
+                    ],
+                    description: [
+                        `<strong>1. LA BESCIAMELLA: WHITE VELVET ENGINEERING.</strong>
+                        Create blond roux (17 mins constant whisking). Infuse milk with onion 90 mins at 68°C.
+                        Combine in 3 stages – Each addition 7 minutes apart. Whisk with balloon whisk until molecular strands align. 
+                        Nota Bene: The béchamel should form "lava legs" dripping from spoon. 100g 00 flour (aged 6 months).
+                        <br><br>
+                        <strong>2. LA BESCIAMELLA: WHITE VELVET ENGINEERING.</strong>
+                        Create blond roux (17 mins constant whisking).Infuse milk with onion 90 mins at 68°C.
+                        Combine in 3 stages – Each addition 7 minutes apart. Whisk with balloon whisk until molecular strands align. 
+                        Nota Bene: The béchamel should form "lava legs" dripping from spoon. Knead 22 minutes by hand (windowpane test at 4mm). 
+                        Rest dough 90 mins in hemp cloth. <br><br>
+                        <strong>3. LA PASTA: HANDMADE SANCTUARY.</strong>
+                        Roll to 0.8mm thickness (setting #6 on Atlas). Cut sheets 12x18cm – Dry 18 mins per side.
+                        Base Layer: Ragù 5mm + béchamel 2mm. Pasta Sheet: Brushed with egg wash. Parmigiano Snow: 24-month aged, microplaned. 
+                        Repeat x12 – Final layer: béchamel domed 3cm. <br><br>
+                        <strong>4. L'ASSEMBLAGGIO: ARCHITECTURAL LAYERING.</strong>
+                        45 mins at 180°C (convection off). 12 mins broil (230°C, 18cm from element). 
+                        0 min rest (crucial for structural integrity). Copper serving spatula (pre-warmed). 
+                        Negroni spritz palate cleanser. Balsamic "1985" in pipette.
+                        `
+                    ]
                 },
                 {
                     id: 4,
                     title: 'Risotto alla Milanese',
-                    img: 'https://avatars.mds.yandex.net/i?id=6f4417e43a9c5bfcb68c4a609d273793_l-5878985-images-thumbs&n=13'
+                    img: 'https://avatars.mds.yandex.net/i?id=6f4417e43a9c5bfcb68c4a609d273793_l-5878985-images-thumbs&n=13',
+                    ingredients: [
+                        '400g Carnaroli rice (aged 24 months)',
+                        '1.5L homemade veal stock (with roasted bones)',
+                        '150g unsalted butter (82% fat, divided)',
+                        '0.5g saffron threads (about 300 strands)',
+                        '1 white onion (brunoise 2mm)',
+                        '80g Parmigiano-Reggiano (36-month aged)',
+                        '30g Grana Padano (for complexity)',
+                        '50ml dry white wine (Lombardian Trebbiano)'
+                    ],
+                    description: [
+                        `<strong>1. The Stock Obsession.</strong>
+                        Roast veal bones at 240°C for 45 mins until mahogany. Simmer with leeks, celery root, and black peppercorns.
+                        Skim every 20 mins for crystal clarity. Reduce by 40% for intense gelatinous texture.
+                        Pro Tip: The perfect stock should coat a spoon like liquid silk. Toast threads in terra cotta dish over candle flame. 
+                        Steep in rose water and 2 tbsp warm stock. <br><br>
+                        <strong>2. The Saffron Ceremony.</strong>
+                        Cover with gold leaf for enhanced infusion. Sweat onions in 50g butter until translucent (no color!).
+                        Toast rice until pearly and fragrant. Deglaze with wine until completely evaporated.
+                        Add stock by the ladle (100ml at a time). At 14-minute mark, stir in marrow emulsion.
+                        Final stir: remaining butter, cheeses, saffron infusion. Critical Moment: The rice should move in waves like Venetian tides. <br><br>
+                        <strong>3. The 12-Point Perfection Checklist.</strong>
+                        All grains move independently. Forms creamy pool when plate tilted. Slight resistance at core (al dente).
+                        Uniform golden hue. Surface reflects light like polished brass. No visible butter separation. 
+                        First note: toasted saffron. Middle: caramelized marrow. Finish: aged cheese. <br><br>
+                        <strong>4. The Serving Liturgy.</strong>
+                        Warmed silver platter. Burled walnut spoon. Glass of Barolo Chinato. Deconstructed "Saffron Field" with rice crisp. 
+                        Molecular "Golden Droplets" (saffron oil spheres). Black Risotto version with squid ink. 
+                        Observe the golden mirror surface. Inhale the vertical aroma (no stirring). First taste without cheese. Second bite with grated Parmigiano. 
+                        `
+                    ]
                 },
                 {
                     id: 5,
                     title: 'Ossobuco alla Milanese',
-                    img: 'https://i.pinimg.com/originals/e2/9e/f9/e29ef9d713a9926a12fd4940c234ad4c.jpg'
-                },
-                {
-                    id: 6,
-                    title: 'Tiramisù',
-                    img: 'https://avatars.mds.yandex.net/i?id=48960a2dc73ab73fe644f127e48052583f8ccc33-10348710-images-thumbs&n=13'
+                    img: 'https://i.pinimg.com/originals/e2/9e/f9/e29ef9d713a9926a12fd4940c234ad4c.jpg',
+                    ingredients: [
+                        '4 cross-cut veal shanks (3" thick, 450g each)',
+                        '100g flour (00 tipo for dusting)',
+                        '300g yellow onions (1cm brunoise)',
+                        '200g celery (with leaves, 5mm slices)',
+                        '500ml dry white wine (Lombard Trebbiano)',
+                        '400g San Marzano tomatoes (peeled, seeded)',
+                        '1 whole orange (zest in strips)',
+                        '4 bay leaves (fresh)'
+                    ],
+                    description: [
+                        `<strong>1. The Bone Preparation.</strong>
+                        Dry-age shanks uncovered on rack at 2°C. Create salmoriglio marinade: 100ml olive oil, 20g sea salt, 
+                        Thyme stalks and Cracked pepper. Massage into meat, refrigerate overnight. Pro Tip: The marrow should glisten like Venetian glass. 
+                        Render pancetta in enameled cocotte. Dredge shanks in flour, sear 7 mins/side. <br><br>
+                        <strong>2. The Maillard Alchemy.</strong>
+                        Build soffritto: onions → carrots → celery. Deglaze with wine, reduce by 3/4. Add tomatoes, stock, aromatics. 
+                        Braise at 83°C (water bath precision). Baste hourly with marrow fat. Cool overnight in cooking liquid. 
+                        Key Moment: The meat should tremble like panna cotta. <br><br>
+                        <strong>3. The Final Act. </strong>
+                        Skim solidified fat (reserve for risotto). Reduce sauce to napé consistency. Warm shanks in bain-marie. 
+                        Prepare gremolata: 1:1:1 lemon zest/parsley/garlic and Chopped at last moment. <br><br>
+                        <strong>4. The Ceremonial Presentation.</strong>
+                        Silver bone marrow spoons. Hand-hammered copper pot. Separate risotto alla Milanese. 
+                        1890s pattern china. Deconstructed ossobuco with marrow espuma. 72-hour sous-vide version. Molecular "bone" made from reduced stock. 
+                        Present whole in cooking vessel. Extract marrow onto warm toast. Spoon sauce tableside. Dust with gremolata à la minute.                         `
+                    ]
                 },
                 {
                     id: 7,
                     title: 'Fettuccine Alfredo',
-                    img: 'https://i.ytimg.com/vi/bG8IRCtKNgE/maxresdefault.jpg'
+                    img: 'https://i.ytimg.com/vi/bG8IRCtKNgE/maxresdefault.jpg',
+                    ingredients: [
+                        '400g fresh fettuccine (bronze-die extruded, 00 flour)',
+                        '2L mineral water (high calcium content)',
+                        '30g coarse sea salt (for pasta water)',
+                        '300g Parmigiano-Reggiano (36-month aged, microplaned)',
+                        '250g unsalted butter (European-style, 84% fat)',
+                        '2 garlic cloves (germ removed, crushed)',
+                        '15 white peppercorns (freshly cracked)',
+                        '50ml pasta water (starch-rich)'
+                    ],
+                    description: [
+                        `<strong>1. The Pasta Baptism.</strong>
+                        Create pasta dough with 60% hydration. Rest overnight under damp cloth. 
+                        Roll through progressively thinner settings. Hang dry on maple dowels for 36 hours. 
+                        Pro Tip: The perfect fettuccine should make a crystal sound when dropped. Separate Parmigiano by crystallization age: 
+                        12-month (for sweetness), 24-month (for umami) and 36-month (for crunch). <br><br>
+                        <strong>2. The Cheese Constellation.</strong>
+                        Microplane into three separate bowls. Blend pecorino with marble mortar. Clarify butter at 62°C (maintaining milk solids). 
+                        Infuse with garlic 15 minutes at 55°C. Whisk cream in copper bowl over ice bath. 
+                        Create three-tier sauce base: Layer 1: 12-month parm + butter, Layer2: 24-month parm + cream and 
+                        Layer3: 36-month parm + pasta water. <br><br>
+                        <strong>3. The Controlled Emulsion.</strong>
+                        Cook pasta in rolling mineral water. Reserve 500ml cooking liquid. Shock in ice bath for 11 seconds.
+                        Finish in sauce pan with 3 tbsp reserved water. Use preheated bronze serving bowl (65°C). Add pasta, then sauce in concentric circles. 
+                        Toss with meter-long silver forks. Garnish with nutmeg snow. <br><br>
+                        <strong>4. The Physics of Perfect Creaminess.</strong>
+                        Parmesan casein creates protein network. Butter crystals align at precise 62°C. Pasta starch forms colloidal suspension. 
+                        Pasta core: 72°C. Sauce surface: 68°C. Bowl contact: 65°C. 0-30 sec: Separate components. 31-45 sec: Sauce incorporation. 
+                        46-60 sec: Perfect emulsification. 
+                        `
+                    ]
                 },
                 {
                     id: 8,
                     title: 'Caprese Salad',
-                    img: 'https://s.yimg.com/ny/api/res/1.2/.R5t0cm0Orh0x1ALJzJusg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02Nzc-/https://media.zenfs.com/en/chowhound_739/bc382b55f30c34029fd950d6dce10658'
-                },
-                {
-                    id: 9,
-                    title: 'Pesto alla Genovese',
-                    img: 'https://i.ytimg.com/vi/IfdiJ2zh7_4/maxresdefault.jpg'
-                },
-                {
-                    id: 10,
-                    title: 'Gelato',
-                    img: 'https://avatars.dzeninfra.ru/get-zen_doc/2977209/pub_6223fbaa45650202fb87c3c3_6223fdd627ff833e1e7c0e27/scale_1200'
-                },
-            ]
-        },
-        {
-            id: 8,
-            title: 'Asian Cuisine',
-            img: 'https://as2.ftcdn.net/jpg/01/36/55/01/1000_F_136550166_3MqqURsOk11DdLzqFHD6RyE5KKGakeEd.jpg',
-            menu: [
-                {
-                    id: 1,
-                    title: 'Sushi',
-                    img: 'https://avatars.mds.yandex.net/i?id=b66b8338f36bc4e7586140e4cfd42781_l-5236101-images-thumbs&n=13'
-                },
-                {
-                    id: 2,
-                    title: 'Biryani',
-                    img: 'https://i.ytimg.com/vi/Do7ZdUodDdw/maxresdefault.jpg'
-                },
-                {
-                    id: 3,
-                    title: 'Peking Duck',
-                    img: 'https://avatars.mds.yandex.net/i?id=9db4bbd68b57f8a51dc28f68c4b4a4fe_l-9154408-images-thumbs&n=13'
-                },
-                {
-                    id: 4,
-                    title: 'Banh Mi',
-                    img: 'https://sun9-60.userapi.com/nABlznr_zKt6TdxIv-3EHIsXX5T5jwdzfm-1xA/O4nD8fQETY8.jpg'
-                },
-                {
-                    id: 5,
-                    title: 'Satay',
-                    img: 'https://avatars.mds.yandex.net/i?id=a68a7fe0aa4cf003beedc8423bc390ecea72cde3534ece6d-7090441-images-thumbs&n=13'
+                    img: 'https://s.yimg.com/ny/api/res/1.2/.R5t0cm0Orh0x1ALJzJusg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02Nzc-/https://media.zenfs.com/en/chowhound_739/bc382b55f30c34029fd950d6dce10658',
+                    ingredients: [
+                        '1.5 kg heirloom tomatoes (mixed varieties: Beefsteak, Cuore di Bue, Green Zebra)',
+                        '500 g buffalo mozzarella di bufala campana DOP (48-hour fresh)',
+                        '100 Genovese basil leaves (unbruised, with stems in water)',
+                        '150 ml single-estate Ligurian olive oil (harvested within 3 months)',
+                        '30 ml 25-year-aged balsamic reduction (Aceto Balsamico Tradizionale di Modena)',
+                        '8 g Murray River pink salt flakes',
+                        '1 Meyer lemon (zest only, microplaned)',
+                        '1/2 vanilla bean (seeds scraped)'
+                    ],
+                    description: [
+                        `<strong>1. Tomato Alchemy.</strong>
+                        Core and score tomatoes, blanch 7 seconds in boiling water with vinegar. Ice shock immediately, peel with paring knife at perfect 45° angle. 
+                        Salt-cure slices on bamboo racks with kombu sheets for 12 hours. Drain and pat with Japanese shamoji rice paddles. 
+                        Pro Tip: The tomatoes should lose 18% weight in moisture. <br><br>
+                        <strong>2. Cheese Meditation.</strong>
+                        Hand-tear mozzarella (never knife-cut) into organic shapes. Milk-brine in whey from same buffalo batch for 6 hours. 
+                        Air-dry on cedar planks in cheese cave at 12°C. Chill marble slab to 4°C. 
+                        Arrange in Fibonacci spiral starting from plate center. Layer sequence: Tomato → basil → mozzarella → repeat. 
+                        Rest uncovered in wine fridge at 85% humidity. <br><br>
+                        <strong>3. Final Assembly.</strong>
+                        Plate: -2°C (frozen Carrara marble). Tomatoes: 12°C (cellar temperature). Cheese: 16°C (slightly cool to tongue). 
+                        Oil: 21°C (room temperature). Balsamic: 32°C (gently warmed in cinnamon wood spoon). 
+                        Center: Beefsteak tomato (2 cm thick). <br><br>
+                        <strong>4. The 12-Point Plating Geometry.</strong>
+                        First ring: Buffalo mozzarella cloud. Second ring: Cuore di Bue slices. 
+                        Third ring: Green Zebra quarters. Basil: One leaf per cheese segment. 
+                        Oil: 3 drops per component. Balsamic: Single brushstroke per plate. Salt: 5 flakes per tomato slice. 
+                        Pepper: 1 grind per basil leaf. Truffle: 1 invisible drop center plate. Vanilla: 3 seeds on cheese only. 
+                        Lemon: Zest snow over all. 
+                        `
+                    ]
                 },
             ]
-        },
-        {
-            id: 9,
-            title: 'Mexican Cuisin',
-            img: 'https://fs.tonkosti.ru/74/cx/74cxbzl9iko4w8wsk4gg4k4go.jpg',
-            menu: [
-                {
-                    id: 1,
-                    title: 'Tacos al Pastor',
-                    img: 'https://avatars.mds.yandex.net/i?id=e63a04bde197c568723e7ac27e620aed4a611f2a-3071791-images-thumbs&n=13'
-                },
-                {
-                    id: 2,
-                    title: 'Tamales',
-                    img: 'https://avatars.dzeninfra.ru/get-zen_doc/4303740/pub_620fc1f0c8c5f1182bedcaef_620fc3ba53856862a4cecb7b/scale_1200'
-                },
-                {
-                    id: 3,
-                    title: 'Chilaquiles',
-                    img: 'https://s.yimg.com/ny/api/res/1.2/HqfNzf12TV1WXbMt8ANrQQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzQ-/https://media.zenfs.com/en/the_daily_meal_185/54d66657822b31ae630f67ba2defa3b1'
-                },
-                {
-                    id: 4,
-                    title: 'Elote',
-                    img: 'https://avatars.mds.yandex.net/i?id=5b1cc89e6eaa087f5ab51ba4b1d21234_l-8411743-images-thumbs&n=13'
-                },
-                {
-                    id: 5,
-                    title: 'Tlayudas',
-                    img: 'https://avatars.mds.yandex.net/i?id=ea000a7ae1cb825db6e22a64a5225149_l-10735006-images-thumbs&n=13'
-                },
-                {
-                    id: 6,
-                    title: 'Enchiladas',
-                    img: 'https://avatars.mds.yandex.net/i?id=25b37e98215f3d7c2091a0b985aef7d44e8bb8b0-8502968-images-thumbs&n=13'
-                },
-                {
-                    id: 7,
-                    title: 'Birria',
-                    img: 'https://avatars.mds.yandex.net/i?id=ddbcbf49c50d376cf87230d301a7c032_l-10766029-images-thumbs&n=13'
-                }
-            ]
-        },
+        }
     ]
 }
