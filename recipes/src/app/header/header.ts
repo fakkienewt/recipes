@@ -21,9 +21,11 @@ export class Header implements OnInit {
   ) { }
 
   onClickSearch(searchValue: string): void {
+    console.log(searchValue);
 
     this.searchValue = searchValue;
     this.searchResults = this.performSearch();
+    console.log(this.searchResults);
 
     localStorage.setItem('searchResults', JSON.stringify(this.searchResults));
     this.router.navigate(['/search', searchValue]);

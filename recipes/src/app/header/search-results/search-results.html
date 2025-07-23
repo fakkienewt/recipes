@@ -1,14 +1,25 @@
-<div id="main-title" (click)="onClickThe()">Unlock Your Culinary Creativity!</div>
+<div id="main-title"
+    (click)="onClickThe()">Unlock Your Culinary Creativity!</div>
 <div id="container"
     *ngFor="let result of searchResults">
     <img id="image"
         src="{{result[1].img}}">
     <div id="recipe">
         <div id="title">{{result[1].title}}</div>
-        <div id="read" (click)="onClickRec(result[1].id, result[0])">Read</div>
+        <div id="read"
+            (click)="onClickRec(result[1].id, result[0])">Read</div>
     </div>
 </div>
 
-<div *ngIf="!searchResults.length">
-    нету
+<div *ngIf="!searchResults.length"
+    class="not-found-content">
+    <h2 class="not-found-text">Nothing found! Please try again.</h2>
+    <div class="rick-image-wrapper">
+        <img class="rick-image" src="/assets/rick1.png">
+    </div>
 </div>
+
+<!-- <div *ngIf="!searchResults.length" class="not-found-content">
+    <h2 class="not-found-text">NOTHING FOUND!</h2>
+    <p class="not-found-subtext">Try entering a different recipe</p>
+</div> -->

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Service } from '../../main/service';
 
@@ -29,6 +29,7 @@ export class SearchResults implements OnInit {
 
   ngOnInit(): void {
     const savedResults = localStorage.getItem('searchResults');
+    console.log('111', savedResults);
     this.searchResults = savedResults ? JSON.parse(savedResults) : [];
   }
 }

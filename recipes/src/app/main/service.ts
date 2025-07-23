@@ -940,7 +940,7 @@ export class Service {
                         `<strong>1.  The Crust Covenant.</strong>
                         Triple-bake technique: 12 mins initial bake (with pie weights), 
                         cool 2 hours, 8 mins second bake (unweighted), 
-                        Final 4 mins with convection fan. Butter sealing: Brush melted butter (45g) while hot. <br.<br>
+                        Final 4 mins with convection fan. Butter sealing: Brush melted butter (45g) while hot. <br><br>
                         <strong>2. The Cheese Enlightenment</strong>
                         Quad-stage mixing: phase 1: Cheese + sugars (45 mins paddle attachment). Phase 2: Eggs/yolks (1 egg every 90 seconds).
                         Phase 3: Dry ingredients (sifted through chinois). Phase 4: Streamed-in cream (35°C).
