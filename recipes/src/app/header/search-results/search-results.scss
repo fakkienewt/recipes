@@ -20,7 +20,6 @@
     font-family: 'Lucida Handwriting';
     font-size: 3rem;
     color: #283F23;
-    /* Тёплый акцентный цвет */
     justify-content: center;
     text-align: center;
     animation: cursiveEntry 1.5s ease-out forwards;
@@ -110,14 +109,10 @@
 
 .rick-image-wrapper {
     width: 250px;
-    /* Фиксируем размер */
     height: 250px;
     border-radius: 20px;
-    /* Скругление углов */
     padding: 8px;
-    /* Отступ для обводки */
     background: linear-gradient(145deg, #397234, #283F23);
-    /* Градиентная обводка */
     box-shadow:
         0 4px 15px rgba(0, 0, 0, 0.2),
         inset 0 0 10px rgba(255, 255, 255, 0.3);
@@ -128,15 +123,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Чтобы изображение заполнило контейнер */
     border-radius: 15px;
-    /* Чуть меньше, чем у wrapper */
     border: 3px solid white;
-    /* Белая рамка внутри */
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Анимация плавного появления */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -149,7 +140,6 @@
     }
 }
 
-/* Анимация пульсации обводки */
 @keyframes pulse {
 
     0%,
@@ -161,90 +151,3 @@
         transform: scale(1.03);
     }
 }
-
-
-// .not-found-content {
-//     text-align: center;
-//     padding: 2rem;
-//     background: rgba(0, 0, 0, 0.7);
-//     border-radius: 20px;
-//     max-width: 500px;
-//     margin: 2rem auto;
-//     animation: fadeIn 0.6s ease-out, shake 5s infinite;
-// }
-
-// .not-found-text {
-//     font-size: 2.5rem;
-//     color: #ACBD5E;
-//     margin-bottom: 1rem;
-//     text-shadow: 0 0 10px #397234, 0 0 20px #ACBD5E;
-//     font-family: 'Comic Sans MS', cursive;
-// }
-
-// .not-found-subtext {
-//     font-size: 1.2rem;
-//     color: #ACBD5E;
-//     margin-bottom: 2rem;
-//     font-style: italic;
-// }
-
-// .rick-image-wrapper {
-//     width: 250px;
-//     height: 250px;
-//     border-radius: 50%;
-//     padding: 10px;
-//     background: linear-gradient(45deg, #283F23, #397234, #3F2617);
-//     box-shadow: 
-//         0 0 20px #ACBD5E, 
-//         0 0 40px #397234,
-//         inset 0 0 15px #3F2617;
-//     position: relative;
-//     margin: 0 auto;
-//     animation: spin 10s linear infinite, pulse 3s ease infinite;
-// }
-
-// .rick-image {
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//     border-radius: 50%;
-//     border: 4px solid #ACBD5E;
-//     filter: contrast(1.2) saturate(1.5);
-// }
-
-// .portal-effect {
-//     position: absolute;
-//     top: -5px;
-//     left: -5px;
-//     right: -5px;
-//     bottom: -5px;
-//     border: 3px dashed #ACBD5E;
-//     border-radius: 50%;
-//     animation: spinReverse 8s linear infinite;
-// }
-
-// @keyframes fadeIn {
-//     from { opacity: 0; transform: translateY(-30px); }
-//     to { opacity: 1; transform: translateY(0); }
-// }
-
-// @keyframes spin {
-//     from { transform: rotate(0deg); }
-//     to { transform: rotate(360deg); }
-// }
-
-// @keyframes spinReverse {
-//     from { transform: rotate(360deg); }
-//     to { transform: rotate(0deg); }
-// }
-
-// @keyframes pulse {
-//     0%, 100% { transform: scale(1); opacity: 1; }
-//     50% { transform: scale(1.05); opacity: 0.9; }
-// }
-
-// @keyframes shake {
-//     0%, 100% { transform: translateX(0); }
-//     10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
-//     20%, 40%, 60%, 80% { transform: translateX(5px); }
-// }

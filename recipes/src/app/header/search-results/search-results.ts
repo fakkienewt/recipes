@@ -17,7 +17,6 @@ export class SearchResults implements OnInit {
   }
 
   onClickRec(recipeId: number, categoryId: number): void {
-    // this.categoryId = +(this.route.snapshot.paramMap.get('id') || 0);
     this.router.navigate(['/recipe', categoryId, recipeId]);
   }
 

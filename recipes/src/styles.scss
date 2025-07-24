@@ -1,12 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     align-items: center;
     background: #ACBD5E;
-    font-family: Lucida Handwriting;
+    font-family: 'Lucida Handwriting', cursive;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 app-root {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     width: 65%;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    padding-bottom: 20px;
 }
